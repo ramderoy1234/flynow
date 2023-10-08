@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Piazzolla:opsz@8..30&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Raleway:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Piazzolla:opsz@8..30&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Raleway:wght@100&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Piazzolla:opsz@8..30&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Raleway:wght@100&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
+  
+
+}
+
+:root {
+  --Primarycolor: hsl(199, 100%, 33%);
+  --secondarycolor: hsl(187, 85%, 43%);
+  --gradientcolor: linear-gradient(to right, hsl(187, 85%, 43%));
+  --whitecolor: hsl(0, 0%, 100%);
+  --blackcolor: hsl(201, 33%, 16%);
+  --textcolor: hsl(240, 4%, 36%);
+  --whitecolordeam: hsl(0, 0%, 93%);
+  --greytext: rgb(190, 190, 190);
+  --inputcolor: rgb(240, 240, 246);
+  --bodycolor: rgb(240, 240, 246);
+  --cardbg: rgb(225, 225, 235);
+}
+
+.NavbarSection{
+    .header{
+    min-height: 100vh;
+    width: 100%;
+       background-image: linear-gradient(rgba(249, 251, 254, 0.7),rgba(57, 59, 65, 0.7)),url(./images/airport.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    
+}
+
+/* Navbar logo styling */
+.logodiv .logo {
+    text-decoration: none;
+}
+
+.logodiv h1 {
+    margin: 7px 3px;
+    padding: 2px 5px;
+    font-size: 4rem;
+    color: rgb(3, 23, 16);
+    border-radius: 500px;
+}
+
+/* Navbar styling */
+.Navbar {
+    margin: 20px 20px;
+    padding-left: 30%;
+}
+
+.Navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+.Navbar ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+/* Navbar link underline animation */
+.Navbar ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #082f35;
+    display: block;
+    margin: auto;
+    transition: width 0.5s;
+}
+
+.Navbar ul li a:hover::after {
+    width: 100%;
+}
+.Navbar ul li a:hover{
+    
+    border-radius:10px 10px;
+
+}
+
+//  typing effect 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.typing::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: #010203;
+    animation: cursorBlink 0.8s steps(3) infinite;
+    font-family: 'Mooli', sans-serif;
+
+}
+
+@keyframes cursorBlink {
+
+    0%,
+    75% {
+        opacity: 1;
+    }
+
+    76%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.typing {
+    position:absolute;
+    margin: 150px 500px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #3333);
+}
+
+.typing h2 {
+    position: relative;
+    color: #0d0e0f;
+    letter-spacing: 5px;
+    font-size: 4rem;
+    overflow: hidden;
+    font-family: 'Mooli', sans-serif;
+    margin-bottom: 0;
+    animation: type 5s steps(11) infinite;
+
+}
+
+@keyframes type {
+
+    0%,
+    100% {
+        width: 0px;
+    }
+
+    30%,
+    60% {
+        width: 394.09px;
+    }
+}
+
+@media(max-width: 330px) {
+    .typing h2 {
+        font-size: 2rem;
+        animation: type 5s steps(10) infinite;
+    }
+
+    @keyframes type {
+
+        0%,
+        100% {
+            width: 0px;
+        }
+
+        30%,
+        60% {
+            width: 305px;
+        }
+    }
+}
+
+// -------------------  button -------------------
+
+.btn {
+    margin-right: 0.5rem !important;
+    margin: 350px 620px;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+
+.btn a{
+    text-decoration: none;
+    font-family: 'Mooli', sans-serif;
+    color: #010203;
+    font-weight: 500;
+
+}
+
+.btn {
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: .7rem 1.5rem;
+}
+.btn:hover{
+    border:2px solid rgb(35, 212, 244);
+}
+
+
+
+
+
+
+
+
+

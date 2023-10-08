@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Piazzolla:opsz@8..30&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Raleway:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Piazzolla:opsz@8..30&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Raleway:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Piazzolla:opsz@8..30&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Raleway:wght@100&display=swap');
+
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background: linear-gradient(rgba(210, 144, 144, 0.7),rgba(0,0,0,0.7));
+  overflow: hidden;
+  margin: 20px 30px;
+}
+.footer h4{
+  color: #f5eeee;
+  font-size: 30px;
+}
+.footer span{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #f5eeee;
+ 
+}
+.footer a{
+  padding: 20px;
+  margin: 10px 10px;
+  
+}
+
+.icons a{
+  padding: 20px;
+  margin: 30px 20px;
+  width: 20px 30px;
+  color: green;
+  font-family: 'Poppins', sans-serif;
+}
+.icons a:hover{
+  color: #fefe05;
+}
+
+.footer span:hover{
+  transition: 0.5s;
+  color: #fefe05;
+}

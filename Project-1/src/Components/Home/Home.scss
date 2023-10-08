@@ -1,0 +1,104 @@
+/* Add any additional CSS styles you need here */
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Piazzolla:opsz@8..30&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Raleway:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Piazzolla:opsz@8..30&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Raleway:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Piazzolla:opsz@8..30&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Raleway:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+.card {
+    width: 18rem;
+    border: 1px solid #ccc;
+    margin: 100px 30px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+.card img{
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-subtitle {
+  
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.hero{
+    text-align: center;
+    padding: 100px;
+    font-family: 'Mooli', sans-serif;
+    letter-spacing: 3px;
+    background-color: #bacddd;
+    border-radius: 500px;
+    margin: 50px;
+}
+.hero .flight{
+    width: 20px;
+    height: 50px;
+}
+
+// -----------------------------------------------------------------------------------------
+
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
